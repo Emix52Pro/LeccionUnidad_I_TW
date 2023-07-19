@@ -19,10 +19,11 @@
                 </li>
 
 
+
             </ul>
             <form>
-                <input type="text" placeholder="Filtro Por Nombre" #filter>
-
+                <input type="text" placeholder="Filtro Por Tipo" #filter>
+                <button class="primary" type="button" (click)="updateSearchString(filter.value);">Search</button>
             </form>
         </div>
     </div>
