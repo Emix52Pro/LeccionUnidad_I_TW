@@ -8,6 +8,7 @@ import { NavbarComponent } from './components/navbar/navbar.component';
 import { AboutComponent } from './components/about/about.component';
 import { RutasComponent } from './components/rutas/rutas.component';
 import { RutastService } from './services/rutast.service';
+import { RutaComponent } from './components/ruta/ruta.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { RutastService } from './services/rutast.service';
     HomeComponent,
     NavbarComponent,
     AboutComponent,
-    RutasComponent
+    RutasComponent,
+    RutaComponent
   ],
   imports: [
     BrowserModule,
