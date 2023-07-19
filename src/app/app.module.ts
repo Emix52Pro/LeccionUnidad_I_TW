@@ -7,6 +7,7 @@ import { HomeComponent } from './components/home/home.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { AboutComponent } from './components/about/about.component';
 import { RutasComponent } from './components/rutas/rutas.component';
+import { RutastService } from './services/rutast.service';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,7 @@ import { RutasComponent } from './components/rutas/rutas.component';
     BrowserModule,
     AppRoutingModule
   ],
-  providers: [],
+  providers: [RutastService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
